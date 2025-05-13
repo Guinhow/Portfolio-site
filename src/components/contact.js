@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css';
-import { FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -9,6 +9,11 @@ const Contact = () => {
       <p>Sinta-se à vontade para me chamar em qualquer uma das redes abaixo:</p>
 
       <div className="contact-grid">
+        <a href="https://wa.me/5521990247117" target="_blank" className="contact-item" rel="noreferrer">
+            <FaWhatsapp className="icon" />
+            <span>WhatsApp</span>
+        </a>
+
         <a href="tel:+5521990247117" className="contact-item">
           <FaPhone className="icon" />
           <span>(21) 99024-7117</span>

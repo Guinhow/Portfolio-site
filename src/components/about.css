@@ -27,3 +27,8 @@
     line-height: 1.8;
   }
   
+  @media (max-width: 768px) {
+    .about-wrapper {
+      margin-top:80px;
+    }
+  }
