@@ -1,0 +1,29 @@
+.about-wrapper {
+    padding: 60px 30px;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    color: #c1b64a;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .about-section ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  

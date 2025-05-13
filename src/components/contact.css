@@ -1,0 +1,36 @@
+.contact-section {
+    padding: 60px 30px;
+    background-color: #0e0e0e;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-grid {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-item:hover {
+    background-color: #c1b64a;
+    color: black;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 22px;
+  }
+  
