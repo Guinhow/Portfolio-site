@@ -1,4 +1,5 @@
 .about-wrapper {
+    margin-top:80px;
     padding: 60px 30px;
     color: white;
     font-family: sans-serif;
@@ -27,8 +28,8 @@
     line-height: 1.8;
   }
   
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .about-wrapper {
       margin-top:80px;
     }
-  }
+  } */

@@ -65,9 +65,9 @@
   
 .modal-content img {
     width: 100%;
-    max-width: 500px;     /* Limita o tamanho horizontal */
-    max-height: 400px;    /* Limita verticalmente */
-    object-fit: contain;  /* Garante que a imagem não corte nem deforme */
+    max-width: 500px;     
+    max-height: 400px;    
+    object-fit: contain;  
     margin: 20px auto;
     display: block;
     border-radius: 8px;
@@ -94,3 +94,11 @@
     cursor: pointer;
 }
   
+.modal-img {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: contain;
+}

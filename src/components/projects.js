@@ -5,12 +5,11 @@ import img02 from '../assets/lemacrame1.png'
 import img03 from '../assets/printsystem01.jpeg'
 import img04 from '../assets/printjavasystem.jpg'
 
-
 const projetos = [
   {
     id: 1,
     nome: 'FreteFácil App',
-    imagem: img01,
+    imagem: [img01],
     descricao: 'App de fretes com login, mapa e painel de solicitações.',
     detalhes: 'App completo com autenticação, cadastro, painel de usuário, criação e finalização de solicitações de corridas. Frontend em React e backend Django.',
     link: 'https://fretefacilapp.vercel.app',
@@ -19,7 +18,7 @@ const projetos = [
   {
     id: 2,
     nome: 'Le Macramê',
-    imagem: img02,
+    imagem: [img02],
     descricao: 'Loja online integrada ao WhatsApp.',
     detalhes: 'Website desenvolvido em React com catálogo de produtos, carrinho de compras e pedidos via API pelo WhatsApp.',
     link: 'https://lemacrame.vercel.app',
@@ -28,7 +27,7 @@ const projetos = [
   {
     id: 3,
     nome: 'Sistema Alunos',
-    imagem: img03,
+    imagem: [img03],
     descricao: 'Sistema de gestao de alunos para escolas.',
     detalhes: 'App completo com autenticação, painel de usuário, e backend Django.',
     link: '',
@@ -37,7 +36,7 @@ const projetos = [
   {
     id: 4,
     nome: 'Java System',
-    imagem: img04,
+    imagem: [img04],
     descricao: 'Sistema web em Java.',
     detalhes: 'Sistema web para um laboratorio de analise se amostras desenvolvido com Spring Boot, com entrada, consulta e exclusão de amstras. ',
     link: '',
@@ -56,7 +55,7 @@ const Projects = () => {
       <div className="projects-grid">
         {projetos.map((projeto) => (
           <div key={projeto.id} className="project-card" onClick={() => abrirModal(projeto.id)}>
-            <img src={projeto.imagem} alt={projeto.nome} />
+            <img src={projeto.imagem[0]} alt={projeto.nome} />
             <h3>{projeto.nome}</h3>
             <p>{projeto.descricao}</p>
           </div>
