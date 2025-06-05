@@ -6,7 +6,7 @@ const Home = () => {
       <div className="home-content">
         <h1>Olá! 👋</h1>
         <h2>Eu sou Vagner Cordeiro</h2>
-        <h3>Desenvolvedor Fullstack</h3>
+        <h3>Analista de Sistemas e Desenvolvedor Fullstack</h3>
         <p>
           Crio aplicações modernas e responsivas com foco em performance, usabilidade e integração entre frontend e backend.
         </p>
