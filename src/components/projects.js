@@ -29,7 +29,7 @@ const projetos = [
     nome: 'Sistema Alunos',
     imagem: [img03],
     descricao: 'Sistema de gestao de alunos para escolas.',
-    detalhes: 'App completo com autenticação, painel de usuário, e backend Django.',
+    detalhes: 'Aplicativo de gestão para escolas ou cursos. Completo com autenticação, dashboard e painel de usuário. Inclusão e exclusão de alunos, gera contratos e planos de pagamento. Quita parcelas e gera comprovantes em PDF. Feito com React Native e Spring boot.',
     link: '',
     repo: 'https://github.com/Guinhow/SistemaAlunos'
   },
@@ -38,7 +38,7 @@ const projetos = [
     nome: 'Java System',
     imagem: [img04],
     descricao: 'Sistema web em Java.',
-    detalhes: 'Sistema web para um laboratorio de analise se amostras desenvolvido com Spring Boot, com entrada, consulta e exclusão de amstras. ',
+    detalhes: 'Sistema web para um laboratorio de analise de amostras desenvolvido com Spring Boot. Sistema conta com entrada, consulta e exclusão de amostras. Banco de dados configurado com MySQL',
     link: '',
     repo: 'https://github.com/Guinhow/JAVA-system'
   }
