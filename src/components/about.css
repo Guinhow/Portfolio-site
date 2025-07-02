@@ -151,6 +151,9 @@
   .skill-category {
     padding: 1rem;
   }
+  .skill-category li::before {
+    content: '';
+  }
   
   .about-section {
     padding: 1.5rem;
