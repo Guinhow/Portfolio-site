@@ -106,6 +106,17 @@ const About = () => {
               <li>Arquitetura de microsserviços</li>
             </ul>
           </div>
+
+          <div className="skill-category">
+            <h4>Soft Skills</h4>
+            <ul>
+              <li>Comunicação clara e eficaz</li>
+              <li>Trabalho em equipe e colaboração interdisciplinar</li>
+              <li>Resolução de problemas com pensamento crítico</li>
+              <li>Gestão do tempo e organização de tarefas</li>
+              <li>Adaptabilidade a novas tecnologias e metodologias</li>
+            </ul>
+          </div>
         </div>
       </section>
 
