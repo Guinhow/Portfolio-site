@@ -78,7 +78,7 @@ const projetos = [
       { screenshot: img51, codigo: img52 },
     ],
     descricao: 'App de delivery mobile e web, cliente, loja e entregador. Feito com React.js, React Native, Nest.js e MySQL.',
-    detalhes: 'App de entregas com suporte web e mobile, com 3 tipos de usuários: Cliente, Loja e Entregador. Loja tem dashboard para controle, cadastro de produto com upload de imagem e visualização de pedidos. Cliente faz solicitação e acompanha status do pedido. Entregador escolhe pedidos, aceita, inicia e finaliza entrega. App desenvolvido com Typescript, Node e MySQL.',
+    detalhes: 'App de entregas com suporte web e mobile, integração com maps, cadastro e autenticação no login e com 3 tipos de usuários: Cliente, Loja e Entregador. Loja tem dashboard para controle, cadastro de produto com upload de imagem e visualização de pedidos. Cliente faz solicitação e acompanha status do pedido. Entregador escolhe pedidos, aceita, inicia e finaliza entrega. App desenvolvido com Typescript, Node e MySQL.',
     link: '',
     repo: 'https://github.com/Guinhow/iDelivery'
   },
