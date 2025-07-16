@@ -37,9 +37,53 @@ import img28 from '../assets/routeotp6.jpeg'
 import img29 from '../assets/routeotp7.jpeg'
 import img30 from '../assets/routeotp8.jpeg'
 
+import img31 from '../assets/ideliveryprint00.jpeg'
+import img32 from '../assets/ideliveryprint01.jpeg'
+import img33 from '../assets/ideliveryprint02.jpeg'
+import img34 from '../assets/ideliveryprint03.jpeg'
+import img35 from '../assets/ideliveryprint04.jpeg'
+import img36 from '../assets/ideliveryprint05.jpeg'
+import img37 from '../assets/ideliveryprint06.jpeg'
+import img38 from '../assets/ideliveryprint07.jpeg'
+import img39 from '../assets/ideliveryprint08.jpeg'
+import img40 from '../assets/ideliveryprint09.jpeg'
+import img41 from '../assets/ideliveryprint10.jpeg'
+import img42 from '../assets/ideliveryprint11.jpeg'
+import img43 from '../assets/ideliveryprint12.jpeg'
+import img44 from '../assets/ideliveryweb00.jpg'
+import img45 from '../assets/ideliveryweb01.jpg'
+import img46 from '../assets/ideliveryweb02.jpg'
+import img47 from '../assets/ideliveryweb03.jpg'
+import img48 from '../assets/ideliveryweb04.jpg'
+import img49 from '../assets/ideliveryweb05.jpg'
+import img50 from '../assets/ideliveryweb06.jpg'
+import img51 from '../assets/ideliveryweb07.jpg'
+import img52 from '../assets/ideliveryweb08.jpg'
+
 const projetos = [
-  {
+    {
     id: 1,
+    nome: 'iDelivery',
+    imagens: [
+      { screenshot: img31, codigo: img32 },
+      { screenshot: img33, codigo: img34 },
+      { screenshot: img35, codigo: img36 },
+      { screenshot: img37, codigo: img38 },
+      { screenshot: img39, codigo: img40 },
+      { screenshot: img41, codigo: img42 },
+      { screenshot: img43, codigo: img44 },
+      { screenshot: img45, codigo: img46 },
+      { screenshot: img47, codigo: img48 },
+      { screenshot: img49, codigo: img50 },
+      { screenshot: img51, codigo: img52 },
+    ],
+    descricao: 'App de delivery mobile e web, cliente, loja e entregador. Feito com React.js, React Native, Nest.js e MySQL.',
+    detalhes: 'App de entregas com suporte web e mobile, com 3 tipos de usuários: Cliente, Loja e Entregador. Loja tem dashboard para controle, cadastro de produto com upload de imagem e visualização de pedidos. Cliente faz solicitação e acompanha status do pedido. Entregador escolhe pedidos, aceita, inicia e finaliza entrega. App desenvolvido com Typescript, Node e MySQL.',
+    link: '',
+    repo: 'https://github.com/Guinhow/iDelivery'
+  },
+  {
+    id: 2,
     nome: 'FreteFácil App',
     imagens: [
       { screenshot: img01, codigo: img20 },
@@ -51,7 +95,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow'
   },
   {
-    id: 2,
+    id: 3,
     nome: 'Le Macramê',
     imagens: [
       { screenshot: img02, codigo: img17 },
@@ -63,7 +107,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow'
   },
   {
-    id: 3,
+    id: 4,
     nome: 'Sistema Alunos',
     imagens: [      
       { screenshot: img12, codigo: img13 },
@@ -76,7 +120,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow/SistemaAlunos'
   },
     {
-    id: 4,
+    id: 5,
     nome: 'Sistema Web Alunos',
     imagens: [
       { screenshot: img05, codigo: img06 },
@@ -89,7 +133,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow/SistemawebAlunos'
   },
       {
-    id: 5,
+    id: 6,
     nome: 'Otimizador de Rotas',
     imagens: [
       { screenshot: img30, codigo: img29 },
@@ -103,7 +147,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow/routeOpt'
   },
     {
-    id: 6,
+    id: 7,
     nome: 'Java System',
     imagens: [
       { screenshot: img04, codigo: img16 },
@@ -200,58 +244,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// const Projects = () => {
-//   const [modalAberto, setModalAberto] = useState(null);
-
-//   const abrirModal = (id) => setModalAberto(id);
-//   const fecharModal = () => setModalAberto(null);
-
-//   return (
-//     <section className="projects-section">
-//       <div className="projects-grid">
-//         {projetos.map((projeto) => (
-//           <div key={projeto.id} className="project-card" onClick={() => abrirModal(projeto.id)}>
-//             <img src={projeto.imagens[0].screenshot} alt={projeto.nome} />
-//             <h3>{projeto.nome}</h3>
-//             <p>{projeto.descricao}</p>
-//           </div>
-//         ))}
-//       </div>
-
-//       {modalAberto && (
-//         <div className="modal-overlay" onClick={fecharModal}>
-//           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-//             <h2>{projetos[modalAberto - 1].nome}</h2>
-//             <p>{projetos[modalAberto - 1].detalhes}</p>
-
-//             {projetos[modalAberto - 1].imagens.map((item, index) => (
-//               <div
-//                 key={index}
-//                 style={{
-//                   display: 'flex',
-//                   gap: '20px',
-//                   margin: '30px 0',
-//                   flexWrap: 'wrap',
-//                   justifyContent: 'center'
-//                 }}
-//               >
-//                 <img src={item.screenshot} alt={`screenshot-${index}`} style={{ maxWidth: '45%' }} />
-//                 <img src={item.codigo} alt={`codigo-${index}`} style={{ maxWidth: '45%' }} />
-//               </div>
-//             ))}
-
-//             <div className="modal-buttons">
-//               <a href={projetos[modalAberto - 1].link} target="_blank" rel="noreferrer">🔗 Ver Projeto</a>
-//               <a href={projetos[modalAberto - 1].repo} target="_blank" rel="noreferrer">💻 Ver Código</a>
-//             </div>
-
-//             <button className="close-btn" onClick={fecharModal}>Fechar</button>
-//           </div>
-//         </div>
-//       )}
-//     </section>
-//   );
-// };
-
-// export default Projects;

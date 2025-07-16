@@ -143,6 +143,9 @@
 }
 
 @media (max-width: 768px) {
+  .about-wrapper {
+    margin-top: 100px;
+  }
   .skills-grid {
     grid-template-columns: 1fr;
     gap: 1rem;

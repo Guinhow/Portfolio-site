@@ -28,6 +28,7 @@ const Home = () => {
     <section className="home-container">
       <div className="home-content">
         <h1>Vagner Cordeiro</h1>
+        <h2>Analista de Sistemas</h2>
         <h2>Desenvolvedor Fullstack</h2>
         <h3>Especialista em Soluções Web Completas</h3>
         <p>

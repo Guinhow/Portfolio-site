@@ -80,6 +80,7 @@ const About = () => {
             <ul>
               <li>React.js para aplicações web modernas</li>
               <li>React Native para desenvolvimento mobile</li>
+              <li>TypeScript para tipagem estática e maior robustez do código</li>
               <li>HTML5, CSS3 e JavaScript ES6+</li>
               <li>Design responsivo e UX otimizada</li>
             </ul>
@@ -88,8 +89,9 @@ const About = () => {
           <div className="skill-category">
             <h4>Backend & Infraestrutura</h4>
             <ul>
-              <li>Django (Python) para APIs robustas</li>
+              <li>Node.js com NestJS para aplicações escaláveis</li>
               <li>Spring Boot (Java) para sistemas enterprise</li>
+              <li>Django (Python) para APIs robustas</li>           
               <li>MySQL para gerenciamento de dados</li>
               <li>Autenticação JWT e controle de sessões</li>
             </ul>
