@@ -60,9 +60,35 @@ import img50 from '../assets/ideliveryweb06.jpg'
 import img51 from '../assets/ideliveryweb07.jpg'
 import img52 from '../assets/ideliveryweb08.jpg'
 
+import img53 from '../assets/Streaming01.png'
+import img54 from '../assets/Streaming02.png'
+import img55 from '../assets/Streaming03.png'
+import img56 from '../assets/Streaming04.png'
+import img57 from '../assets/Streaming05.png'
+import img58 from '../assets/Streaming06.png'
+import img59 from '../assets/Streaming07.png'
+import img60 from '../assets/Streaming08.png'
+import img61 from '../assets/Streaming09.png'
+import img62 from '../assets/Streaming10.png'
+
 const projetos = [
     {
     id: 1,
+    nome: 'Streaming App',
+    imagens: [
+      { screenshot: img53, codigo: img54 },
+      { screenshot: img55, codigo: img56 },
+      { screenshot: img57, codigo: img58 },
+      { screenshot: img59, codigo: img60 },
+      { screenshot: img61, codigo: img62 },
+    ],
+    descricao: 'App de Streaming web, com login e cadastro de usuario. Feito com React.js, Nest.js e MySQL.',
+    detalhes: 'App de Streamig com suporte a videos locais e links do youtube. Player funcional, filtro por nome e categoria dos videos. App desenvolvido com JavaScript, Typescript, Node e MySQL.',
+    link: '',
+    repo: 'https://github.com/Guinhow/Streaming'
+  },
+      {
+    id: 2,
     nome: 'iDelivery',
     imagens: [
       { screenshot: img31, codigo: img32 },
@@ -83,7 +109,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow/iDelivery'
   },
   {
-    id: 2,
+    id: 3,
     nome: 'FreteFácil App',
     imagens: [
       { screenshot: img01, codigo: img20 },
@@ -95,7 +121,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow'
   },
   {
-    id: 3,
+    id: 4,
     nome: 'Le Macramê',
     imagens: [
       { screenshot: img02, codigo: img17 },
@@ -107,7 +133,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow'
   },
   {
-    id: 4,
+    id: 5,
     nome: 'Sistema Alunos',
     imagens: [      
       { screenshot: img12, codigo: img13 },
@@ -120,7 +146,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow/SistemaAlunos'
   },
     {
-    id: 5,
+    id: 6,
     nome: 'Sistema Web Alunos',
     imagens: [
       { screenshot: img05, codigo: img06 },
@@ -133,7 +159,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow/SistemawebAlunos'
   },
       {
-    id: 6,
+    id: 7,
     nome: 'Otimizador de Rotas',
     imagens: [
       { screenshot: img30, codigo: img29 },
@@ -147,7 +173,7 @@ const projetos = [
     repo: 'https://github.com/Guinhow/routeOpt'
   },
     {
-    id: 7,
+    id: 8,
     nome: 'Java System',
     imagens: [
       { screenshot: img04, codigo: img16 },
