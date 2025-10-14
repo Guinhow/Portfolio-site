@@ -240,7 +240,7 @@ const Projects = () => {
                 />
                 <img
                   src={imagens[indiceAtual].codigo}
-                  alt="codigo"
+                  // alt="codigo"
                   onClick={() => setImagemAmpliada(imagens[indiceAtual].codigo)}
                 />
               </div>

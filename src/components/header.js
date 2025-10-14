@@ -7,6 +7,7 @@ const subMenu = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/About' },
     { name: 'Projects', path: '/Projects' },
+    { name: 'Landing Pages', path: '/Landing' },
     { name: 'Contact', path: '/Contact' },
   ];
 
